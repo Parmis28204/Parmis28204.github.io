@@ -1,0 +1,171 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0px;
+    background-color: wheat;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: darkslategrey;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper { 
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 25px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    font-size: 40px;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color:teal;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+.profile-image-wrapper img{
+    width: 80%;
+    height: 70%;
+    border-radius: 50px;
+
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h3 {
+    color: olivedrab;
+}
+
+.profile-content-wrapper p {
+    color: midnightblue;
+}
+
+.container {
+    text-align: center;
+    font-size: 30px;
+}
+
+.portfolio-item-wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrapper {
+    padding:0  20px 20px;
+}
+
+img:hover {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: darkslategrey;
+    padding-top: 300px;
+}
+
+.button {
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    top: 300px;
+    left: 300px;
+    position: relative;
+    border: 3px solid #555;
+    border-radius: 5px;
+    transition-duration: 0.60s;
+    padding-bottom: none;
+    justify-content: space-between;
+}
+
+.beautybay {
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.beautybay:hover {
+    box-shadow: 0.5px 10px rgba(0, 0, 0, 0.5);
+    transition-duration: scale(0.95);
+}
+
+.FashionNova {
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.FashionNova:hover {
+    box-shadow: 0.5px 10px rgba(0, 0, 0, 0.5);
+    transition-duration: scale(0.95);
+}
+
+.shein {
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.shein:hover {
+    box-shadow: 0.5px 10px rgba(0, 0, 0, 0.5);
+    transition-duration: scale(0.95);
+}
+
+.img-text-wrapper img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    align-items: center;
+}
